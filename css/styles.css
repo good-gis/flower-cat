@@ -61,7 +61,7 @@ p {
 }
 
 .icon-lg {
-    font-size: 50px;
+    font-size: 20px;
     line-height: 18px;
 }
 
@@ -282,7 +282,7 @@ footer {
 
 @media(min-width:768px) {
     .icon-lg {
-        font-size: 80px;
+        font-size: 40px;
     }
 
     header {
