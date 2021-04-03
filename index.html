@@ -47,8 +47,8 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" data-toggle="modal" href="#aboutModal"
-                       title="Here is a little information about a developer and you can download demo">About me :)</a>
+                    <a class="page-scroll" data-toggle="modal" href="#aboutModal" id="linkModalAboutMe"
+                       title="Here is a little information about a developer and you can download demo">About me</a>
                 </li>
             </ul>
         </div>
@@ -57,18 +57,10 @@
 <header id="first">
     <div class="header-content">
         <div class="inner">
-            <h1 class="cursive">Flower Cat: Anastasia</h1>
-            <h4>An adventure platform game!</h4>
-            <hr>
-            <a class="btn btn-primary btn-xl" data-toggle="collapse" href="#video-background" id="toggleVideo"> Watch
-                Trailer</a> &nbsp; <a class="btn btn-primary btn-xl page-scroll" data-toggle="modal" href="#aboutModal">Download Demo</a>
+            <a class="main-button-left btn btn-primary btn-xl" data-toggle="collapse" href="#video-background" id="toggleVideo">   Watch Trailer  </a>
+            <a class="main-button-right btn btn-primary btn-xl page-scroll" data-toggle="modal" href="#aboutModal">Download Demo</a>
         </div>
     </div>
-    <video autoplay="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" id="video-background"
-           loop="" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg">
-        <source src="" type="video/mp4">
-        Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
 </header>
 <section id="one">
     <div class="container">
@@ -290,7 +282,7 @@
                     <div class="col-md-4 col-md-offset-4">
                         <label></label>
                         <button class="btn btn-primary btn-block btn-lg" data-target="#alertModal" data-toggle="modal"
-                                type="button">Subscribe <i class="ion-android-arrow-forward"></i>
+                                type="button" id="subscribe">Subscribe <i class="ion-android-arrow-forward"></i>
                         </button>
                     </div>
                 </form>
@@ -353,7 +345,7 @@
             <div class="modal-body">
                 <h2 class="text-center">Hi, there!</h2><br><br>
                 <p class="text-justify">
-                    Hi! I'm Anya, an game dev from Kirov, Russia working on Flower Cat: Anastasia, an adventure platform game about a powerful witches and her lovely girl-cat that fleeing a strange land. <br><br> Flower Cat: Anastasia isn't my first project, but is the first time I've tried to release something publically. <br><br> I'm hoping to share it with as many people as I can, and make an experience I can really be proud of.
+                    Hi! I'm Anna, an game dev from Kirov, Russia working on Flower Cat: Anastasia, an adventure platform game about a powerful witch and her lovely cat-girl that fleeing a strange land. <br><br> Flower Cat: Anastasia isn't my first project, but is the first time I've tried to release something publically. <br><br> I'm hoping to share it with as many people as I can, and make an experience I can really be proud of.
                 </p>
                 <p class="text-center"><a href="/download-demo">Download Demo</a></p>
                 <br/>
@@ -381,6 +373,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="js/libs/jquery-canvas-sparkles.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/sparkle.js"></script>
 </body>
 </html>
