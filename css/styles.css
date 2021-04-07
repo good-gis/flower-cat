@@ -539,3 +539,16 @@ img::-moz-selection {
     white-space: pre;
     border:5px solid #f0f0f0 !important;
 }
+
+/* горизонтальная прокрутка */
+@media (min-width: 992px) {
+    .container-fluid.my-own-class {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .container-fluid.my-own-class .col-md-4 {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+    }
+}
