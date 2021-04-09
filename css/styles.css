@@ -596,3 +596,8 @@ img::-moz-selection {
     padding-right: 10%;
     font-size: medium;
 }
+
+/* отступ в видео */
+.row.video-row {
+    margin-top: 3em !important;
+}
