@@ -553,6 +553,19 @@ img::-moz-selection {
     }
 }
 
+/* для мобилок горизонтальная прокрутка*/
+@media (max-width: 992px) {
+    .container-fluid.my-own-class {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .container-fluid.my-own-class .col-md-4 {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+    }
+}
+
 /* стилизация scroll */
 /* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
