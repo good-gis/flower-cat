@@ -590,3 +590,9 @@ img::-moz-selection {
     padding-right:0;
     padding-left:0;
 }
+
+.pack-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: medium;
+}
