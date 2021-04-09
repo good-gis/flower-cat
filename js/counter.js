@@ -1,14 +1,13 @@
 $(function () {
-
-    var target_block = $(".counterFirst"); // Ищем блок
-    var blockStatus = true;
-
+    var target = $('.counterFirst');
+    var targetPos = target.offset().top;
+    var winHeight = $(window).height();
+    var scrollToElem = targetPos - winHeight;
+    var isStarted = true;
     $(window).scroll(function () {
-
-        var scrollEvent = ($(window).scrollTop() > (target_block.position().top - $(window).height()));
-        if (scrollEvent && blockStatus) {
-            blockStatus = false; // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
-
+        var winScrollTop = $(this).scrollTop();
+        if (winScrollTop > scrollToElem && isStarted) {
+            isStarted = false;
             $({numberValue: 0}).animate({numberValue: 6}, {
                 duration: 4500, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
                 easing: "linear",
@@ -33,3 +32,5 @@ $(function () {
         }
     });
 });
+
+
