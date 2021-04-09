@@ -584,3 +584,9 @@ img::-moz-selection {
     background-color: #541660;
 }
 
+/* убрать отступы в галерее*/
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
