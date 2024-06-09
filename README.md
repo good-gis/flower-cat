@@ -19,8 +19,8 @@ This project is a landing page for our game "Flower-Cat". The landing page is bu
 - JavaScript
 
 ## Project Contributors
-- [Ivan Glushkov (good-gis)]
-- [Anna Koshkina]
+- Ivan Glushkov (good-gis)
+- Anna Koshkina
 
 ## Crowdfunding
 We didn't successfully raise funds for Flower-Cat through a crowdfunding campaign on Planeta.ru. Thanks to everyone who supported us in making this adorable game a reality, your money will be sent back
