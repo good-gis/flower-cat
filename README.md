@@ -23,6 +23,5 @@ This project is a landing page for our game "Flower-Cat". The landing page is bu
 - [Anna Koshkina]
 
 ## Crowdfunding
-We didn't successfully raise funds for Flower-Cat through a crowdfunding campaign on Planeta.ru. Thanks to everyone who supported us in making this adorable game a reality.
-
+We didn't successfully raise funds for Flower-Cat through a crowdfunding campaign on Planeta.ru. Thanks to everyone who supported us in making this adorable game a reality, your money will be sent back
 😺🌼
